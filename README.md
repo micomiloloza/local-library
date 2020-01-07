@@ -22,7 +22,6 @@ In order to use Express you will first have to install Node.js and the Node Pack
 Installing Node and NPM is straightforward because you can just use the provided installer:
 Go to https://nodejs.org/en/
 Select the button to download the LTS build that is “Recommended for most users”.
-Install Node by double-clicking the downloaded file and following the installation prompts.
 
 The easiest way to test that node is installed is to run the “version” command in your terminal/command prompt and check that a version string is returned:
 ```bash
@@ -61,7 +60,7 @@ The createServer() function takes as an argument a callback function that will b
 Start the server by navigating into the same directory as your hellonode.js file in your command prompt, and calling node along with the script name, like so:
 	>node hellonode.js
 	Server tunning at http://127.0.0.1:3000/
-Navigate to the URL  http://127.0.0.1:3000/. If everything is working the browser should simply display the string “Hello DFS”.
+Navigate to the URL  http://127.0.0.1:3000/. If everything is working the browser should simply display the string “Hello Library”.
 
 # Using NPM
 
